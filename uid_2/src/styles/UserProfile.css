@@ -1,0 +1,53 @@
+/* Main container for user profile */
+.user-profile {
+    background-color: #f3f4f6; /* Light background color for the profile card */
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+    margin: 100px auto; /* Center the profile card horizontally and vertically */
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Animation for hover effect */
+  }
+  
+  /* Hover effect for profile card */
+  .user-profile:hover {
+    transform: translateY(-10px); /* Slight lift when hovered */
+  }
+  
+  /* Styling for profile picture */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff; /* White border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the user name */
+  .user-profile h2 {
+    margin: 15px 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the email and bio text */
+  .user-profile p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Optional: Adding a background color to the whole page */
+  body {
+    background-color: #e9eff3; /* Soft background for the entire page */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
